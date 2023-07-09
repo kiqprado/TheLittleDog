@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background: #535353;
+}
+
+#canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 1020px;
+  height: 500px;
+
+  border: 2px dashed #1c1c1c;
+}
+
+#player {
+  display: none;
+}
+
+#layer5,
+#layer4,
+#layer3,
+#layer2,
+#layer1,
+#enemy_fly,
+#enemy_plant,
+#enemy_spider,
+#fire,
+#boom {
+  display: none;
+}
